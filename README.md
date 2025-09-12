@@ -49,17 +49,17 @@ app.R             # App launcher
 # ----- Data --------------------------------------------------------
 Dataset includes:
 
-· id: unique identifier
+- id: unique identifier
 
-· site: facility code
+- site: facility code
 
-· date: date of energy usage
+- date: date of energy usage
 
-· type: energy type
+- type: energy type
 
-· value: energy usage amount
+- value: energy usage amount
 
-· carbon_emission_kgco2e: CO₂ emissions
+- carbon_emission_kgco2e: CO₂ emissions
 
 Sample data is provided in /data/sample_data.csv
 
@@ -67,11 +67,11 @@ Sample data is provided in /data/sample_data.csv
 
 Unit tests are written with testthat and cover:
 
-· Data validation
+- Data validation
 
-· KPI calculations
+- KPI calculations
 
-· Helper functions
+- Helper functions
 
 Run tests locally:
   devtools::test()
@@ -79,16 +79,16 @@ Run tests locally:
 # ---- CI/CD -------------------------------------------------------
 This repo includes a GitHub Actions workflow (.github/workflows/ci.yml) that:
 
-  · Installs dependencies
+  - Installs dependencies
 
-  · Runs tests
+  - Runs tests
 
-  · Executes R CMD check
+  - Executes R CMD check
 
 # ----- Notes ------------------------------------------------------
 
-· Time spent: 
+- Time spent: 
 
-· Assumptions: 
+- Assumptions: 
 
-· Future improvements: 
+- Future improvements: 
