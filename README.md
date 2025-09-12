@@ -1,9 +1,7 @@
 # susneo-shiny
-# ===========================================================================
-# Take-Home Assignment Round 1 for Susneo: R Shiny dashboard built with golem
-# ===========================================================================
+# # Take-Home Assignment Round 1 for Susneo: R Shiny dashboard built with golem # #
 
-# ---- Setup Instructions --------------------------------------------------
+# ---- Setup Instructions ------------------------------------------
 1. Clone the repository:
     git clone https://github.com/Datapronostika/susneo-shiny-mdoloresperez.git
 
@@ -15,7 +13,7 @@
 4. Run the app locally:
     golem::run_dev()
    
-# ----- App Overview -----------------------------------------------------------
+# ----- App Overview ------------------------------------------------
 This Shiny app provides an interactive dashboard for analyzing energy consumption and carbon 
 emissions across multiple facilities.
 * Features:
@@ -28,7 +26,7 @@ emissions across multiple facilities.
 - Summary data table
 - Screenshot to be added here.
 
-# ---- Architecture -----------------------------------------------------------
+# ---- Architecture -------------------------------------------------
 - Golem framework with modular design
 
 - Modules:
@@ -48,7 +46,7 @@ DESCRIPTION       # Dependencies
 README.md         # Documentation
 app.R             # App launcher
 
-# ----- Data -----------------------------------------------------------------
+# ----- Data --------------------------------------------------------
 Dataset includes:
 
 · id: unique identifier
@@ -65,7 +63,7 @@ Dataset includes:
 
 Sample data is provided in /data/sample_data.csv
 
-# -----Testing ----------------------------------------------------------------
+# -----Testing -----------------------------------------------------
 
 Unit tests are written with testthat and cover:
 
@@ -78,7 +76,7 @@ Unit tests are written with testthat and cover:
 Run tests locally:
   devtools::test()
 
-# ---- CI/CD ------------------------------------------------------------------
+# ---- CI/CD -------------------------------------------------------
 This repo includes a GitHub Actions workflow (.github/workflows/ci.yml) that:
 
   · Installs dependencies
@@ -87,7 +85,7 @@ This repo includes a GitHub Actions workflow (.github/workflows/ci.yml) that:
 
   · Executes R CMD check
 
-# ----- Notes -----------------------------------------------------------------
+# ----- Notes ------------------------------------------------------
 
 · Time spent: 
 
