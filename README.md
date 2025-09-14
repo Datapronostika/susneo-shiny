@@ -3,7 +3,7 @@
 
 # ---- Setup Instructions ------------------------------------------
 1. Clone the repository:
-    git clone https://github.com/Datapronostika/susneo-shiny-mdoloresperez.git
+    git clone [[https://github.com/Datapronostika/susneo-shiny-mdoloresperez.git](https://github.com/Datapronostika/susneo-shiny)](https://github.com/Datapronostika/susneo-shiny)
 
 2. Open the project in RStudio.
 
