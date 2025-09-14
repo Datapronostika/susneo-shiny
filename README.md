@@ -8,7 +8,7 @@
 2. Open the project in RStudio.
 
 3. Install required dependencies:
-    install.packages(c("golem", "shiny", "dplyr", "ggplot2", "plotly", "DT", "testthat"))
+    install.packages(c("golem", "shiny", "dplyr", "ggplot2", "DT", "testthat"))
 
 4. Run the app locally:
     golem::run_dev()
@@ -23,7 +23,7 @@ emissions across multiple facilities.
 - KPI cards (total consumption, average consumption, total emissions)
 - Time series visualization
 - Facility comparison visualization
-- Summary data table
+- Summary data table 
 - Screenshot to be added here.
 
 # ---- Architecture -------------------------------------------------
